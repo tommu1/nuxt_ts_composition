@@ -1,0 +1,30 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "sample",
+  "author": "Tomoya",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate",
+    "lint": "eslint --ext .js, .ts, .vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "latest",
+    "@nuxtjs/composition-api": "^0.30.0",
+    "@nuxtjs/vuetify": "^1.12.1",
+    "nuxt": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/types": "latest",
+    "@nuxt/typescript-build": "latest",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^8.2.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
